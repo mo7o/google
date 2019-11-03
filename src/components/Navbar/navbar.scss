@@ -1,4 +1,37 @@
 .wrapper-navbar {
-  background-color: aquamarine;
   height: 10vh;
+}
+
+.wrapper-links {
+  padding: 0 30px;
+  line-height: 8vh;
+
+  a:not(:last-child) {
+    padding-right: 15px;
+    font-size: 13px;
+    color: #000;
+  }
+
+  .menu-icon {
+    // height: 24px;
+    margin: 0 5px;
+    max-width: 16px;
+    opacity: 0.6;
+  }
+
+  .menu-icon:hover {
+    opacity: 1;
+  }
+
+  .avatar-img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper-links {
+    padding: 0 15px;
+  }
 }

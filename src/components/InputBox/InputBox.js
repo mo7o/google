@@ -6,7 +6,6 @@ const InputBox = () => {
   return (
     <div className="wrapper-inputbox">
       <i class="fas fa-search search-icon"></i>
-
       <input type="text" />
       <div className="wrapper-voice">
         <span className="voice-search-icon"></span>

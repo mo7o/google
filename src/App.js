@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div>
       <Navbar />
       <div className="main-wrapper">
         <div className="main-content text-center">
@@ -16,19 +16,26 @@ function App() {
             alt="google-logo"
           />
           <InputBox />
-          <ActionButton />
+          <div className="button-group">
+            <ActionButton search />
+            <ActionButton />
+          </div>
           <div className="language-wrapper">
             <small>
               <span>Google offered in:</span>
-              <a href="#">हिन्दी</a>
-              <a href="#">বাংলা</a>
-              <a href="#">తెలుగు</a>
-              <a href="#">मराठी</a>
-              <a href="#">தமிழ்</a>
-              <a href="#">ગુજરાતી</a>
-              <a href="#">ಕನ್ನಡ</a>
-              <a href="#">മലയാളം</a>
-              <a href="#">ਪੰਜਾਬੀ</a>
+              <span>
+                <a href="#">हिन्दी</a>
+                <a href="#">বাংলা</a>
+                <a href="#">తెలుగు</a>
+                <a href="#">मराठी</a>
+                <a href="#">தமிழ்</a>
+                <span>
+                  <a href="#">ગુજરાતી</a>
+                  <a href="#">ಕನ್ನಡ</a>
+                  <a href="#">മലയാളം</a>
+                  <a href="#">ਪੰਜਾਬੀ</a>
+                </span>
+              </span>
             </small>
           </div>
         </div>

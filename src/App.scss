@@ -1,5 +1,7 @@
 body {
-  height: 100vh;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
 }
 
 .main-wrapper {
@@ -9,9 +11,35 @@ body {
   align-items: center;
 }
 
+.button-group {
+  display: inline-block;
+}
+
 .language-wrapper {
   margin: 15px auto;
+  overflow: hidden;
+
   a {
-    margin: auto 5px;
+    color: #1a0dab;
+  }
+
+  a:not(:last-child) {
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .language-wrapper {
+    span:first-child {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .language-wrapper {
+    span span {
+      display: block;
+    }
   }
 }

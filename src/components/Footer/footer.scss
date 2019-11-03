@@ -1,4 +1,45 @@
 .wrapper-footer {
-  background-color: brown;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
   height: 12vh;
+
+  .nav {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  a {
+    color: #5f6368;
+  }
+
+  .inner-footer1 {
+    border-bottom: 1px solid #e4e4e4;
+    line-height: 4vh;
+
+    a {
+      font-size: 15px;
+      color: #808080;
+    }
+  }
+
+  .inner-footer2 {
+    line-height: 4vh;
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul:first-child {
+      display: inline-flex;
+    }
+
+    ul:last-child {
+      float: right;
+    }
+    a {
+      font-size: 13px;
+    }
+  }
 }

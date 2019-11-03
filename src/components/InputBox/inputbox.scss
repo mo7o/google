@@ -55,3 +55,21 @@
   background-size: 24px;
   vertical-align: middle;
 }
+
+@media only screen and (max-width: 500px) {
+  .wrapper-inputbox {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapper-inputbox {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .wrapper-inputbox {
+    width: 310px;
+  }
+}
