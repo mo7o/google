@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+}
+
+.main-wrapper {
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-wrapper {
+  margin: 15px auto;
+  a {
+    margin: auto 5px;
+  }
+}
